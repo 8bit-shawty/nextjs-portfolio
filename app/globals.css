@@ -7,7 +7,20 @@
   --color-darkTheme: #11001F;
   --font-Outfit: 'Outfit', sans-serif;
   --font-Ovo: 'Ovo', serif;
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
 }
+
+:root{
+  --grid-auto: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-cols-custom{
+  display:grid;
+  grid-template-columns: var(--grid-auto);
+}
+
+
 
 /* *{
   font-family: var(--font-Ovo);
