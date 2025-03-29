@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
 
-const Navbar = () => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
     const[isScroll, setIsScroll] = useState(false)
     const sideMenuRef = useRef();
 
@@ -45,7 +45,7 @@ const Navbar = () => {
             </ul>
 
             <div className='flex items-center gap-4'>
-                <button className='cursor-pointer'>
+                <button onClick={()=>setIsDarkMode(prev => !prev)} className='cursor-pointer'>
                     <Image src={assets.moon_icon} alt='' className='w-6'/>
                 </button>
 
