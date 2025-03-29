@@ -24,6 +24,10 @@
 
 
 
-/* *{
+*{
+  font-family: var(--font-Outfit);
+}
+
+.font-Ovo{
   font-family: var(--font-Ovo);
-} */
+}
