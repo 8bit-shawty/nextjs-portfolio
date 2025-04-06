@@ -25,7 +25,9 @@ const Services = () => {
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{delay:0.7, duration:0.5}}
-        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt excepturi veritatis maiores perspiciatis hic quibusdam qui ducimus provident voluptatibus voluptas.</motion.p>
+        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+        I specialize in crafting modern, user-centric web experiences using technologies like React, TypeScript, and Figma. Whether it’s building responsive UIs, implementing seamless UX, or collaborating through Git, I bring frontend visions to life with precision and performance.
+        </motion.p>
 
         <motion.div 
         initial={{opacity:0}}

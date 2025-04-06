@@ -86,38 +86,38 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Propr Health',
+        description: 'Appointment Booking App',
+        bgImage: '/ss4.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Ecommerce Website',
+        description: 'NextJs Ecommerce App',
+        bgImage: '/ss6.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'propr.',
+        description: 'MERN Chat App',
+        bgImage: '/ss7.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Portfolio Webpage',
+        description: 'NextJs Portfolio',
+        bgImage: '/ss14.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Web Development', description: 'I build responsive, accessible, and high-performing web applications using React.js, Next.js, TypeScript, and modern CSS frameworks. From landing pages to full-featured SPAs, I bring ideas to life with clean, scalable code.', link: '#' },
+    { icon: assets.mobile_icon, title: 'UI/UX Implementation', description: 'Using Figma and a keen eye for design, I transform mockups into pixel-perfect interfaces with smooth animations, intuitive layouts, and great user experiences across devices.', link: '#' },
+    { icon: assets.ui_icon, title: 'Mobile-Responsive Design', description: 'I ensure that every web project is fully responsive, delivering a seamless experience across smartphones, tablets, and desktops using mobile-first design practices and media queries.', link: '#' },
+    { icon: assets.graphics_icon, title: 'Version Control & Collaboration', description: 'Proficient with Git and GitHub, I collaborate efficiently in teams, manage branches, and handle pull requests, ensuring smooth development workflows and clean codebases.', link: '#' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, TypeScript, React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Certified from two full-stack coding bootcamps with a focus on frontend and backend development' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 10 full stack projects, including production-ready web apps' }
 ];
 
 export const toolsData = [

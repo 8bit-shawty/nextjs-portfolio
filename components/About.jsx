@@ -38,7 +38,9 @@ const About = ({isDarkMode}) => {
             whileInView={{opacity:1}}
             transition={{duration:0.6, delay:0.8}}
             className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eaque qui hic fugit molestias totam laboriosam ad aspernatur deleniti corrupti est assumenda quo, optio eveniet officiis eos voluptas, maiores, asperiores aut? Exercitationem pariatur repellat earum ipsam. Quasi, molestiae? Quasi voluptas ex, expedita dolores minima impedit iusto excepturi vitae laboriosam repudiandae?</p>
+                <p className='mb-10 max-w-2xl font-Ovo'>
+                    I'm Max Fregoso — a frontend developer with a sharp eye for detail and a passion for crafting clean, responsive, and user-friendly interfaces. With a solid foundation in HTML, CSS, JavaScript, TypeScript, ReactJs, and NextJs, I love bringing designs to life and creating seamless user experiences. Whether it's building pixel-perfect components or optimizing performance, I'm always pushing to make the web more intuitive, engaging, and accessible.
+                </p>
 
                 <motion.ul
                 initial={{opacity:0}}
