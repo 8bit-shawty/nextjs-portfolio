@@ -28,11 +28,11 @@ const Header = () => {
             Frontend web developer based in Los Angeles
         </motion.h1>
         <motion.p 
-        initial={{opacity:0}}
-        whileInView={{opacity:1}}
-        transition={{duration: 0.6, delay:0.7 }}
-        className='max-w-2xl mx-auto font-Ovo'>
-            I am a frontend developer from California, USA with 2 years of experience in multiple companies like Microsoft, Tesla and Apple
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration: 0.6, delay:0.7 }}
+            className='max-w-2xl mx-auto font-Ovo'>
+            I’m a frontend developer from California with hands-on experience building responsive web apps using React, Next.js, and TypeScript. Passionate about creating clean UI and solving real-world problems through code.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 
